@@ -51,7 +51,7 @@ Nitish Kumar
 1) Day mode image
 <img width="1888" height="905" alt="Screenshot 2026-05-15 142321" src="https://github.com/user-attachments/assets/02ec8c9a-7fb9-4b0b-b274-00f89c796fd8" />
 2) Night mode image
-3) <img width="1883" height="900" alt="Screenshot 2026-05-15 142345" src="https://github.com/user-attachments/assets/f6de684d-ce53-404f-9594-54010b279d43" />
+   <img width="1883" height="900" alt="Screenshot 2026-05-15 142345" src="https://github.com/user-attachments/assets/f6de684d-ce53-404f-9594-54010b279d43" />
 
 
 
