@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="day-mode">
+    <div class="theme-toggle">
+        <span class="toggle-label">Night</span>
+        <label class="toggle-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+    
+    <div class="container">
+        <h1>Weather App</h1>
+        
+        <div class="search-container">
+            <input type="text" id="location-input" placeholder="Enter a city name..." value="London">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+        
+        <div class="error"></div>
+        
+        <div class="weather-info">
+            <div class="location-time">
+                <h2 id="location-name">Location</h2>
+                <div id="local-time">Local Time: Loading...</div>
+            </div>
+            <div class="current-weather">
+                <div class="temp"><span id="temperature">0</span>°C</div>
+                <div class="condition">
+                    <img id="weather-icon" src="" alt="Weather icon">
+                    <span id="weather-text">Condition</span>
+                </div>
+            </div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <strong>Feels Like:</strong> <span id="feels-like">0</span>°C
+                </div>
+                <div class="detail-item">
+                    <strong>Humidity:</strong> <span id="humidity">0</span>%
+                </div>
+                <div class="detail-item">
+                    <strong>Wind:</strong> <span id="wind-speed">0</span> km/h
+                </div>
+                <div class="detail-item">
+                    <strong>Pressure:</strong> <span id="pressure">0</span> mb
+                </div>
+                <div class="detail-item">
+                    <strong>Visibility:</strong> <span id="visibility">0</span> km
+                </div>
+                <div class="detail-item">
+                    <strong>UV Index:</strong> <span id="uv">0</span>
+                </div>
+                <div class="detail-item">
+                    <strong>Day/Night:</strong> <span id="day-night">Day</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
